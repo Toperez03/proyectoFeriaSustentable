@@ -1,0 +1,168 @@
+/* ----------- Estilos Generales ----------- */
+body {
+  background-color: #FEF3DC;       /* Color crema suave de fondo */
+  font-family: 'Roboto', sans-serif;
+  color: #375F1B;                  /* Verde oscuro para el texto */
+  margin: 0;
+  padding: 0;
+}
+
+/* ----------- Encabezado ----------- */
+header {
+  background-color: #66B032;       /* Verde medio */
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+  font-family: 'Playfair Display', serif;
+}
+
+/* ----------- Navegación ----------- */
+.navbar {
+  background-color: #375F1B;       /* Verde oscuro */
+  padding: 10px 0;
+  margin-bottom: 10px;             /* Reducido para acercar al h2 */
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  padding: 8px 16px;
+  background-color: #9BD770;       /* Verde claro para botón */
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #9C6902;       /* Marrón en hover */
+  color: #FFFFFF;
+}
+
+/* ----------- Sección Principal ----------- */
+main {
+  padding: 20px;
+}
+
+main h2 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  color: #375F1B;
+  margin-top: 10px;      /* Se agregó para controlar espacio superior */
+  margin-bottom: 40px;
+}
+
+/* ----------- Grilla de Integrantes ----------- */
+.grilla-integrantes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* ----------- Tarjetas de Integrantes ----------- */
+.integrante {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.integrante:hover {
+  transform: translateY(-5px);
+}
+
+.integrante img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  object-position: top;            /* Muestra parte superior de la imagen */
+  border-radius: 50%;              /* Imagen circular */
+  margin-bottom: 10px;
+  border: 3px solid #9BD770;       /* Borde verde claro */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.integrante h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color: #66B032;
+  margin-bottom: 8px;
+}
+
+.integrante a {
+  font-weight: bold;
+  color: #9C6902;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.integrante a:hover {
+  color: #375F1B;
+  text-decoration: underline;
+}
+
+/* ----------- Sitio en Construcción ----------- */
+.imagen-construccion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.imagen-construccion img {
+  width: 950px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* ----------- Footer ----------- */
+footer {
+  background-color: #375F1B;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 14px;
+  margin-top: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ----------- Responsive Design ----------- */
+@media (max-width: 768px) {
+  .grilla-integrantes {
+    grid-template-columns: 1fr;
+  }
+
+  .integrante img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .imagen-construccion img {
+    width: 90%;
+  }
+}
