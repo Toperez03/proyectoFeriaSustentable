@@ -126,18 +126,12 @@ main h2 {
   text-decoration: underline;
 }
 
-/* ----------- Sitio en Construcción ----------- */
-.imagen-construccion {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.imagen-construccion img {
-  width: 950px;
-  height: auto;
-  border-radius: 10px;
+/* ----------- img Mapa ----------- */
+.imagen-mapa {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
 }
 
 /* ----------- Footer ----------- */
