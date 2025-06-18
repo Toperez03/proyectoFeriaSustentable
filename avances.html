@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="estilos.css" />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="avances">
 
   <header>
     <h1>Avances del Proyecto</h1>
@@ -22,45 +22,173 @@
   </nav>
 
   <main>
-    <h2>Texto Introductorio</h2>
-    <p>Este trabajo se basa en el caso “Feria Sustentable Itinerante”, una iniciativa que promueve prácticas ecológicas en distintas ciudades. La propuesta del grupo es desarrollar un sitio web accesible, informativo y visualmente atractivo que facilite la difusión del evento y mejore la experiencia del usuario.</p>
+    <div class="section-box">
+      <h2>Texto Introductorio</h2>
+      <p>Este trabajo se basa en el caso “Feria Sustentable Itinerante”, una iniciativa que promueve prácticas ecológicas en distintas ciudades. La propuesta del grupo es desarrollar un sitio web accesible, informativo y visualmente atractivo que facilite la difusión del evento y mejore la experiencia del usuario.</p>
+    </div>
 
-    <h3>Actividad principal</h3>
-    <p>La actividad principal de la organización es promover la sustentabilidad mediante una feria itinerante que recorre distintas ciudades de una provincia argentina, acercando productos ecológicos, talleres y propuestas educativas a la comunidad.</p>
+    <div class="section-box">
+      <h3>Actividad principal</h3>
+      <p>La actividad principal de la organización es promover la sustentabilidad mediante una feria itinerante que recorre distintas ciudades de una provincia argentina, acercando productos ecológicos, talleres y propuestas educativas a la comunidad.</p>
+    </div>
 
-    <h3>Objetivos del sitio web</h3>
-    <p>El objetivo del sitio web es brindar toda la información necesaria sobre el evento (fechas, ubicaciones, horarios, actividades y stands), facilitar el acceso a promociones y compras online, y ofrecer una experiencia accesible, clara y atractiva para todo tipo de usuarios.</p>
+    <div class="section-box">
+      <h3>Objetivos del sitio web</h3>
+      <p>El objetivo del sitio web es brindar toda la información necesaria sobre el evento (fechas, ubicaciones, horarios, actividades y stands), facilitar el acceso a promociones y compras online, y ofrecer una experiencia accesible, clara y atractiva para todo tipo de usuarios.</p>
+    </div>
 
-    <h3>Concepto general</h3>
-    <p>El concepto general del sitio se basa en un diseño visual natural y simple, con navegación intuitiva y elementos interactivos como mapas, formularios y galerías. Las estrategias de atracción incluyen contenido visual atractivo, actividades destacadas, promociones para familias y grupos, y acceso rápido desde dispositivos móviles.</p>
+    <div class="section-box">
+      <h3>Concepto general</h3>
+      <p>El concepto general del sitio se basa en un diseño visual natural y simple, con navegación intuitiva y elementos interactivos como mapas, formularios y galerías. Las estrategias de atracción incluyen contenido visual atractivo, actividades destacadas, promociones para familias y grupos, y acceso rápido desde dispositivos móviles.</p>
+    </div>
 
-    <h3>Análisis del público objetivo</h3>
-    <ul>
-      <li><strong>Familias</strong> con hijos pequeños o adolescentes, interesadas en propuestas recreativas y educativas.</li>
-      <li><strong>Jóvenes</strong> que valoran la innovación, el consumo responsable y las experiencias comunitarias.</li>
-      <li><strong>Personas de todas las edades</strong> que buscan adoptar hábitos más sustentables.</li>
-    </ul>
-    <p>Este público se caracteriza por un alto uso de medios digitales, sensibilidad ambiental y búsqueda de actividades significativas vinculadas al cuidado del planeta.</p>
+    <div class="section-box">
+      <h3>Análisis del público objetivo</h3>
+      <ul>
+        <li><strong>Familias</strong> con hijos pequeños o adolescentes, interesadas en propuestas recreativas y educativas.</li>
+        <li><strong>Jóvenes</strong> que valoran la innovación, el consumo responsable y las experiencias comunitarias.</li>
+        <li><strong>Personas de todas las edades</strong> que buscan adoptar hábitos más sustentables.</li>
+      </ul>
+      <p>Este público se caracteriza por un alto uso de medios digitales, sensibilidad ambiental y búsqueda de actividades significativas vinculadas al cuidado del planeta.</p>
+    </div>
 
-    <h2>Identidad Visual Inicial</h2>
-    <p><strong>Paleta de colores:</strong> #9BD770, #66B032, #375F1B, #9C6902, #FEF3DC</p>
-    <p><strong>Tipografías:</strong> Arial, sans-serif</p>
-    <p><strong>Logo:</strong> En desarrollo</p>
+    <div class="divider"></div>
 
-    <h2>Mapa del sitio</h2>
-    <img class="imagen-mapa" src="img/mapa.PNG" alt="Mapa del sitio">
+    <!-- Restauramos la sección de Paleta de Colores -->
+    <div class="section-box">
+      <h2>Identidad Visual Inicial</h2>
+      <div class="tabla-titulo">Paleta de Colores</div>
+      <table>
+        <thead>
+          <tr>
+            <th>Color</th>
+            <th>Código Hexadecimal</th>
+            <th>Uso principal</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Blanco suave</strong></td>
+            <td>#FBFDFC</td>
+            <td>Fondo principal (`body`, `.promociones`)</td>
+            <td>Es un blanco cálido, que aporta claridad sin ser frío, ideal para transmitir limpieza y sustentabilidad.</td>
+          </tr>
+          <tr>
+            <td><strong>Verde oscuro</strong></td>
+            <td>#1B281B</td>
+            <td>Texto general, títulos, `.dia.activo`</td>
+            <td>Verde muy oscuro casi negro, asociado a la naturaleza, elegancia y legibilidad.</td>
+          </tr>
+          <tr>
+            <td><strong>Verde claro grisáceo</strong></td>
+            <td>#DDEDE1</td>
+            <td>Fondo de encabezado</td>
+            <td>Muy suave, fresco y moderno, aporta armonía ecológica y claridad visual.</td>
+          </tr>
+          <tr>
+            <td><strong>Verde oliva apagado</strong></td>
+            <td>#F4F8F1</td>
+            <td>Fondo de sección `.mision`</td>
+            <td>Un verde apagado muy claro, transmite calma, limpieza y coherencia con el estilo natural.</td>
+          </tr>
+          <tr>
+            <td><strong>Gris verdoso</strong></td>
+            <td>#F0F0E4</td>
+            <td>Inputs, campos de formulario</td>
+            <td>Un tono crema tirando al gris, usado para diferenciar elementos sin generar contraste agresivo.</td>
+          </tr>
+          <tr>
+            <td><strong>Gris medio</strong></td>
+            <td>#888888</td>
+            <td>Texto de `.dia` no activo</td>
+            <td>Neutral, para resaltar el contraste del día activo. Da sensación de jerarquía visual.</td>
+          </tr>
+          <tr>
+            <td><strong>Gris claro</strong></td>
+            <td>#CCC</td>
+            <td>Líneas divisorias de preguntas frecuentes</td>
+            <td>Útil para separar contenido sin distraer visualmente.</td>
+          </tr>
+          <tr>
+            <td><strong>Verde hoja</strong></td>
+            <td>#39833C</td>
+            <td>Botones (enviar), enlaces (`.info a`)</td>
+            <td>Aporta vitalidad y energía, asociado directamente a lo ecológico. Llamativo sin ser agresivo.</td>
+          </tr>
+          <tr>
+            <td><strong>Verde más intenso</strong></td>
+            <td>#2a902b</td>
+            <td>Hover de botón</td>
+            <td>Refuerza interacción activa, mantiene coherencia de tonalidad.</td>
+          </tr>
+          <tr>
+            <td><strong>Gris oscuro verdoso</strong></td>
+            <td>#4A5245</td>
+            <td>Texto de contacto</td>
+            <td>Legible, con tono sobrio. Complementa sin competir con el contenido.</td>
+          </tr>
+          <tr>
+            <td><strong>Verde de trazo</strong></td>
+            <td>#204F0A</td>
+            <td>Bordes del ícono circular (check)</td>
+            <td>Verde más saturado para destacar iconografía asociada a beneficios.</td>
+          </tr>
+          <tr>
+            <td><strong>Verde muy suave translúcido</strong></td>
+            <td>rgba(218, 218, 202, 0.4)</td>
+            <td>Fondo de box `.promo`, `.pago`</td>
+            <td>Aporta volumen visual suave, mantiene estética clara y aireada.</td>
+          </tr>
+          <tr>
+            <td><strong>Verde-marrón translúcido</strong></td>
+            <td>rgba(22, 52, 9, 0.16)</td>
+            <td>Bordes de los box `.promo`, `.pago`</td>
+            <td>Ligero contraste para definir límites sin romper el estilo limpio.</td>
+          </tr>
+          <tr>
+            <td><strong>Gris topo claro</strong></td>
+            <td>#b6b6a8</td>
+            <td>Divider `.divisor`</td>
+            <td>Neutro, elegante, separa secciones de forma sutil.</td>
+          </tr>
+          <tr>
+            <td><strong>Verde casi negro alternativo</strong></td>
+            <td>#1D221B</td>
+            <td>Textos promocionales y pagos</td>
+            <td>Otro tono muy oscuro y natural, coherente con los títulos principales.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-    <h2>Prototipo</h2>
-    <p>Enlace a Figma o Penpot: <a href="https://www.figma.com/design/HiI5F9beu7Hh2YOg71Wtvs/Sin-t%C3%ADtulo?node-id=1-1547&m=dev">Figma</a></p>
-    
-    <h2>Organización del equipo</h2>
-    <ul>
-      <li>Camila de la Torre - UX/UI Designer</li> <!-- Armado de paleta de colores, fuentes, iconos, botones (armado de figma) - Cami de la Torre -->
-      <li>Facundo Sole - Programador</li> <!-- le agrega funciones en JAVA SCRIP al proyecto (formularios/notifiaciones/pantallas emergentes/etc) - Facu Sole  -->
-      <li>Tomas Emanuel Perez - Maquetador HTML/CSS</li> <!-- Pasa todo lo diseñado en el figma a HTML/CSS    - Tomas Perez -->
-      <li>Tomas Kupinski - Comunicador Web </li>  <!-- Armar textos de la web principalmente del HTML Avances y proyecto. Al final del proyecto debe crear un video contando el evento/proyecto - Tomas Kupinski -->
-    </ul>
-  </main>
+    <div class="divider"></div>
+
+    <div class="section-box">
+      <h2>Mapa del sitio</h2>
+      <img class="imagen-mapa" src="img/mapa.PNG" alt="Mapa del sitio" style="max-width: 100%; height: auto;">
+    </div>
+
+    <div class="section-box">
+      <h2>Prototipo</h2>
+      <p>Enlace a Figma o Penpot: <a href="https://www.figma.com/design/HiI5F9beu7Hh2YOg71Wtvs/Sin-t%C3%ADtulo?node-id=1-1547&m=dev">Figma</a></p>
+    </div>
+
+    <div class="section-box">
+      <h2>Organización del equipo</h2>
+      <ul>
+        <li>Camila de la Torre - UX/UI Designer</li>
+        <li>Facundo Sole - Programador</li>
+        <li>Tomas Emanuel Perez - Maquetador HTML/CSS</li>
+        <li>Tomas Kupinski - Comunicador Web</li>
+      </ul>
+    </div>
+
+    <!-- Sección para colocar el logo -->
+  <div class="section-box">
+  <h2>Logo del Sitio</h2>
+  <img class="imagen-mapa" src="img/Logo.png" alt="Logo" style="max-width: 250px; height: auto; display: block; margin: 0 auto;">
+  </div>
 
   <footer>
     © Grupo 8 - UADE - Feria Sustentable 2025. Todos los derechos reservados.

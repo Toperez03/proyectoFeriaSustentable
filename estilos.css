@@ -1,15 +1,15 @@
 /* ----------- Estilos Generales ----------- */
 body {
-  background-color: #FEF3DC;       /* Color crema suave de fondo */
+  background-color: #D7CBA2; /* Beige suave */
   font-family: 'Roboto', sans-serif;
-  color: #375F1B;                  /* Verde oscuro para el texto */
+  color: #0F1D23; /* Azul muy oscuro para el texto */
   margin: 0;
   padding: 0;
 }
 
 /* ----------- Encabezado ----------- */
 header {
-  background-color: #66B032;       /* Verde medio */
+  background-color: #3C5E6B; /* Azul grisáceo */
   color: white;
   padding: 30px 0;
   text-align: center;
@@ -23,9 +23,9 @@ header h1 {
 
 /* ----------- Navegación ----------- */
 .navbar {
-  background-color: #375F1B;       /* Verde oscuro */
+  background-color: #0F1D23; /* Azul muy oscuro */
   padding: 10px 0;
-  margin-bottom: 10px;             /* Reducido para acercar al h2 */
+  margin-bottom: 10px;
 }
 
 .navbar ul {
@@ -47,14 +47,14 @@ header h1 {
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
   padding: 8px 16px;
-  background-color: #9BD770;       /* Verde claro para botón */
+  background-color: #B39733; /* Amarillo mostaza */
   border-radius: 5px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .navbar a:hover {
-  background-color: #9C6902;       /* Marrón en hover */
-  color: #FFFFFF;
+  background-color: #802F52; /* Rosa oscuro en hover */
+  color: white;
 }
 
 /* ----------- Sección Principal ----------- */
@@ -66,8 +66,8 @@ main h2 {
   text-align: center;
   font-family: 'Playfair Display', serif;
   font-size: 28px;
-  color: #375F1B;
-  margin-top: 10px;      /* Se agregó para controlar espacio superior */
+  color: #3C5E6B; /* Azul grisáceo */
+  margin-top: 10px;
   margin-bottom: 40px;
 }
 
@@ -98,10 +98,10 @@ main h2 {
   width: 250px;
   height: 250px;
   object-fit: cover;
-  object-position: top;            /* Muestra parte superior de la imagen */
-  border-radius: 50%;              /* Imagen circular */
+  object-position: top;
+  border-radius: 50%;
   margin-bottom: 10px;
-  border: 3px solid #9BD770;       /* Borde verde claro */
+  border: 3px solid #3C5E6B; /* Azul grisáceo */
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -110,19 +110,19 @@ main h2 {
 .integrante h3 {
   font-family: 'Playfair Display', serif;
   font-size: 20px;
-  color: #66B032;
+  color: #3C5E6B; /* Azul grisáceo */
   margin-bottom: 8px;
 }
 
 .integrante a {
   font-weight: bold;
-  color: #9C6902;
+  color: #B39733; /* Amarillo mostaza */
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
 }
 
 .integrante a:hover {
-  color: #375F1B;
+  color: #802F52; /* Rosa oscuro */
   text-decoration: underline;
 }
 
@@ -136,8 +136,8 @@ main h2 {
 
 /* ----------- Footer ----------- */
 footer {
-  background-color: #375F1B;
-  color: #FFFFFF;
+  background-color: #0F1D23; /* Azul muy oscuro */
+  color: white;
   text-align: center;
   padding: 15px 10px;
   font-size: 14px;
@@ -145,18 +145,169 @@ footer {
   font-family: 'Roboto', sans-serif;
 }
 
-/* ----------- Responsive Design ----------- */
-@media (max-width: 768px) {
-  .grilla-integrantes {
-    grid-template-columns: 1fr;
-  }
+/* ----------- Estilos para el Proyecto Final ----------- */
+.contenedor-final {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #D7CBA2; /* Beige suave */
+}
 
-  .integrante img {
-    width: 200px;
-    height: 200px;
-  }
+.contenedor-final h2, .youtube-box h3 {
+  font-size: 32px;
+  font-family: 'Playfair Display', serif;
+  color: #3C5E6B; /* Azul grisáceo */
+  margin-bottom: 20px;
+}
 
-  .imagen-construccion img {
-    width: 90%;
-  }
+.boton-enlace {
+  display: inline-block;
+  padding: 14px 28px;
+  background-color: #B39733; /* Amarillo mostaza */
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.boton-enlace:hover {
+  background-color: #802F52; /* Rosa oscuro */
+}
+
+/* Estilo del divisor */
+.divider {
+  width: 50%;
+  height: 2px;
+  background-color: #3C5E6B; /* Azul grisáceo */
+  margin: 30px auto;
+}
+
+/* Estilo del box de YouTube */
+.youtube-box {
+  padding: 20px;
+  margin: 40px auto;
+  max-width: 600px;
+  text-align: center; /* Centrado del contenido */
+}
+
+.youtube-box a {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #B39733; /* Amarillo mostaza */
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px; /* Espacio entre el texto y el botón */
+}
+
+.youtube-box a:hover {
+  background-color: #802F52; /* Rosa oscuro */
+}
+
+/* ----------- Estilos específicos para la página Avances ----------- */
+.avances .section-box {
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.avances .section-box h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  color: #3C5E6B; /* Azul grisáceo */
+  margin-bottom: 20px;
+  border-bottom: 2px solid #3C5E6B;
+  padding-bottom: 10px;
+}
+
+.avances .section-box h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: 600;
+  color: #3C5E6B; /* Azul grisáceo */
+}
+
+.avances .section-box p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #4A5245; /* Gris oscuro verdoso */
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.avances ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.avances ul li {
+  font-size: 16px;
+  color: #4A5245; /* Gris oscuro verdoso */
+  margin-bottom: 10px;
+}
+
+.avances .tabla-titulo {
+  font-family: 'Playfair Display', serif;
+  color: #B39733; /* Amarillo mostaza */
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 2px solid #3C5E6B; /* Azul grisáceo */
+}
+
+/* Tabla */
+.avances .section-box table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.avances .section-box th,
+.avances .section-box td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.avances .section-box th {
+  background-color: #F0F0E4; /* Gris verdoso */
+  color: #3C5E6B; /* Azul grisáceo */
+  font-size: 18px;
+}
+
+.avances .section-box td {
+  background-color: #FFF;
+  color: #4A5245; /* Gris oscuro verdoso */
+  font-size: 16px;
+}
+
+.avances .section-box td strong {
+  font-weight: bold;
+}
+
+.avances .section-box td {
+  text-align: center;
+  padding: 15px;
+}
+
+/* Estilo de las filas alternas de la tabla */
+.avances .section-box table tr:nth-child(even) {
+  background-color: #F9F9F9; /* Fondo gris suave para filas pares */
+}
+
+.avances .section-box table tr:hover {
+  background-color: #F1F1F1; /* Fondo gris claro al pasar el mouse */
 }
